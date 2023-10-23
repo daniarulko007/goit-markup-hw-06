@@ -1125,6 +1125,13 @@ margin-bottom: 24px;
     margin: 25.5px 0px 25.5px 16px;
   }
 
+  .mob-menu {
+  display: none;
+  }
+
+  .mobile-menu-button{
+    display: none;
+  }
 
   .header-menu {
     display: flex;
