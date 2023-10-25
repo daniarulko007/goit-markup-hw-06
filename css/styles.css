@@ -227,10 +227,16 @@ color: #404BBF;
   padding: 24px 24px 40px 16px;
   /* display: flex;
   flex-direction: column; */
-  /* overflow: auto;
+  overflow: auto;
   opacity: 0;
   visibility: hidden;
-  pointer-events: auto; */
+  pointer-events: auto;
+}
+
+.mob-top {
+}
+
+.mob-bottom {
 }
 
 .menu-close-btn {
@@ -296,11 +302,11 @@ color: #404BBF;
 }
 
 .mob-soc {
-  display: flex;
+  display: inline-flex;
+  align-items: flex-start;
   gap: 40px;
-  justify-content: center;
-
 }
+
 .mob-soc-item {
   width: 40px;
   height: 40px;
@@ -1137,7 +1143,7 @@ margin-bottom: 24px;
   display: none;
   }
 
-  .mobile-menu-button{
+  .mob-menu-button{
     display: none;
   }
 
