@@ -111,7 +111,7 @@ img {
   margin: 17.5px 0px;
 }
 
-.mobile-menu-button{
+.mob-menu-button{
   border-style: none;
   background: transparent;
   margin: 0px 0px;
@@ -227,10 +227,10 @@ color: #404BBF;
   padding: 24px 24px 40px 16px;
   /* display: flex;
   flex-direction: column; */
-  overflow: auto;
+  /* overflow: auto;
   opacity: 0;
   visibility: hidden;
-  pointer-events: auto;
+  pointer-events: auto; */
 }
 
 .menu-close-btn {
@@ -274,7 +274,7 @@ color: #404BBF;
   /* position: fixed;
   bottom: 128px;
   transform: translateX(-12%);   */
-  margin-top: auto;
+  margin-top: 168px;
   margin-bottom: 48px;
 }
 
